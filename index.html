@@ -1,0 +1,400 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Usability Evaluation Dashboard</title>
+  <link rel="stylesheet" href="stylesheet.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
+</head>
+<body>
+  <div class="dashboard">
+    <aside class="sidebar">
+      <h2 class="logo">UsabilityEval</h2>
+      <nav>
+        <a href="#home" class="active"><i class="fas fa-home"></i> Home</a>
+        <a href="#decide"><i class="fas fa-lightbulb"></i> DECIDE Framework</a>
+        <a href="#results"><i class="fas fa-chart-bar"></i> Evaluation Results</a>
+        <a href="#improvements"><i class="fas fa-tools"></i> Proposed Improvements</a>
+        <a href="#extras"><i class="fas fa-plus-circle"></i> Extra Pages</a>
+      </nav>
+    </aside>
+
+    <main class="main-content">
+
+		<div class="evaluated-info">
+  <img src="img/1630289100_mobile.jpg" alt="System Logo" class="system-logo">
+  <h2 class="system-name">Evaluated System: Mobile Store Management System</h2>
+</div>
+
+
+     <section class="group-section">
+  <h2>Group Members</h2>
+  <div class="group-container">
+
+    <div class="member-card">
+  <img src="img/profile.jpg" alt="Member Name" class="member-pic">
+  <h4>John Lender Andaya</h4>
+  <p>Dev./Evaluator</p>
+  <div class="task-buttons">
+    <a href="files/Admin - Secure&Login_Andaya.pdf" class="work-btn">Task 1</a>
+    <a href="files/Client - Secure Login and Registration_Andaya.pdf" class="work-btn">Task 2</a>
+  </div>
+</div>
+
+
+    <div class="member-card">
+      <img src="img/PACITE.jpg" alt="Mark Reyes" class="member-pic">
+      <h3>JhonLaurence Pacite</h3>
+      <p>Evaluator</p>
+       <div class="task-buttons">
+    <a href="files/Pacite_Admin - Dashboard Page.pdf" class="work-btn">Task 1</a>
+    <a href="files/Pacite_Client-Homepage-Page.pdf" class="work-btn">Task 2</a>
+  </div>
+
+    </div>
+
+    <div class="member-card">
+      <img src="img/OMAR.jpg" alt="Sam Lee" class="member-pic">
+      <h3>John Omar Penas</h3>
+      <p>Evaluator</p>
+       <div class="task-buttons">
+    <a href="files/John Omar_Admin-List-all-placed-Orders.pdf" class="work-btn">Task 1</a>
+    <a href="files/John Omar_Client-Manage-Cart.pdf" class="work-btn">Task 2</a>
+  </div>
+
+    </div>
+
+    <div class="member-card">
+      <img src="img/JAYJAY.jpg" alt="Kate Dela Cruz" class="member-pic">
+      <h3>Joven James Artiaga</h3>
+      <p>Evaluator</p>
+       <div class="task-buttons">
+    <a href="files/Joven James_Admin-Manage-Brand-List.pdf" class="work-btn">Task 1</a>
+    <a href="files/Joven James_Client-Explore-Products.pdf" class="work-btn">Task 2</a>
+  </div>
+
+    </div>
+
+    <div class="member-card">
+      <img src="img/chairman.jpg" alt="Josh Santos" class="member-pic">
+      <h3>Al Joshua     Senar</h3>
+      <p>Evaluator</p>
+       <div class="task-buttons">
+    <a href="files/chairman_Admin-Manage-Product-List.pdf" class="work-btn">Task 1</a>
+    <a href="files/chairman_Client-List-Product-by-Categories.pdf" class="work-btn">Task 2</a>
+  </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+<section id="decide" class="decide-section">
+  <h1>🧠 DECIDE Framework</h1>
+
+  <div class="decide-card">
+    <h3><i class="fas fa-bullseye decide-icon"></i>D – Determine the Goals</h3>
+    <p><strong>Objective:</strong> To evaluate the usability, interface design, and user experience of a web-based mobile store system composed of:</p>
+    <ul>
+      <li><strong>Admin Panel</strong> – for managing products, orders, and inventory</li>
+      <li><strong>Client Panel</strong> – for browsing products, managing cart, and placing orders</li>
+    </ul>
+    <p><strong>Key Goals:</strong></p>
+    <ul>
+      <li>Allow users to register, log in, and manage their accounts easily</li>
+      <li>Ensure smooth product browsing, search, and filtering</li>
+      <li>Test the shopping cart, checkout flow, and PayPal integration</li>
+      <li>Assess admin functionalities like product and order management</li>
+      <li>Identify usability problems and recommend UI/UX improvements</li>
+      <li>Enhance feedback, task flow, and error handling</li>
+    </ul>
+  </div>
+
+  <div class="decide-card">
+    <h3><i class="fas fa-question decide-icon"></i>E – Explore the Questions</h3>
+    <p><strong>For Clients:</strong></p>
+    <ul>
+      <li>Can users register and log in without issues?</li>
+      <li>Is the homepage clear, appealing, and informative?</li>
+      <li>Do filters and brand checkboxes work properly?</li>
+      <li>Is the “Add to Cart” and checkout process easy to follow?</li>
+      <li>Are error messages visible and understandable?</li>
+      <li>Can users view orders and update their info smoothly?</li>
+    </ul>
+    <p><strong>For Admins:</strong></p>
+    <ul>
+      <li>Is the admin login secure and functional?</li>
+      <li>Can admins easily add/edit brands, categories, and products?</li>
+      <li>Is managing orders and banners clear and efficient?</li>
+      <li>Do confirmation prompts appear when needed (e.g., delete/edit)?</li>
+      <li>Are labels understandable even for non-technical users?</li>
+    </ul>
+  </div>
+
+  <div class="decide-card">
+    <h3><i class="fas fa-tools decide-icon"></i>C – Choose the Evaluation Approach and Methods</h3>
+    <p><strong>Methods Used:</strong></p>
+    <ul>
+      <li>Heuristic Evaluation (Nielsen’s 10 Usability Heuristics)</li>
+      <li>User Testing (client and admin users performing tasks)</li>
+      <li>Observation and Note-Taking (tracking errors and struggles)</li>
+      <li>Group Collaboration (combining feedback from all members)</li>
+    </ul>
+    <p><strong>Tools Used:</strong></p>
+    <ul>
+      <li>Google Docs – for documenting usability issues</li>
+      <li>Browser Developer Tools – for inspecting UI elements</li>
+      <li>Google Forms – optional user feedback collection</li>
+    </ul>
+    <p><strong>Expected Outcomes:</strong></p>
+    <ul>
+      <li>Identify UI/UX issues like unclear labels and missing feedback</li>
+      <li>Understand user pain points and confusion</li>
+      <li>Generate recommendations and an action plan</li>
+    </ul>
+  </div>
+
+  <div class="decide-card">
+    <h3><i class="fas fa-exclamation-circle decide-icon"></i>I – Identify Practical Issues</h3>
+    <p><strong>Resources:</strong></p>
+    <ul>
+      <li>Devices: Laptops and mobile phones</li>
+      <li>Users: 5–7 testers (client) and 2–3 evaluators (admin)</li>
+      <li>Testing Time: 2–3 days; Data Analysis: 1–2 days</li>
+      <li>Setup: Browser with full system access</li>
+    </ul>
+    <p><strong>Limitations:</strong></p>
+    <ul>
+      <li>PayPal tested in sandbox/demo mode only</li>
+      <li>System is still under development (some issues may persist)</li>
+    </ul>
+  </div>
+
+  <div class="decide-card">
+    <h3><i class="fas fa-shield-alt decide-icon"></i>D – Decide How to Handle Ethical Issues</h3>
+    <ul>
+      <li>Testers were informed of the evaluation and gave consent</li>
+      <li>Dummy accounts and test data were used</li>
+      <li>Participants could skip or stop at any time</li>
+      <li>All feedback was kept confidential</li>
+    </ul>
+  </div>
+
+  <div class="decide-card">
+    <h3><i class="fas fa-chart-line decide-icon"></i>E – Evaluate, Interpret, and Present the Data</h3>
+    <p><strong>Task Success Rate:</strong> Most testers completed client-side tasks successfully. A few admin-side actions needed guidance.</p>
+    <p><strong>Common Issues Observed:</strong></p>
+    <ul>
+      <li>Lack of confirmation messages</li>
+      <li>No Undo/Redo options</li>
+      <li>Missing help tooltips or on-screen hints</li>
+      <li>Inconsistent button styles and fonts</li>
+      <li>Poor input validation and error handling</li>
+      <li>Small or hard-to-see cart buttons</li>
+      <li>Use of technical terms unfamiliar to regular users (e.g., “slug”)</li>
+    </ul>
+  </div>
+</section>
+
+
+
+<section id="results" class="content-card">
+  <h1>Evaluation Results</h1>
+  <p class="section-intro">Here are the key usability issues found during the evaluation, along with the violated heuristic, affected users, and recommended improvements.</p>
+
+  <div class="issue-list">
+
+ <!-- Issue 1 -->
+<div class="issue-card">
+  <h3><i class="fas fa-bug"></i> Lack of Input Validation</h3>
+  <p><strong>Heuristic Violated:</strong> Error prevention</p>
+  <p><strong>Description:</strong> Users could submit forms with missing or incorrect data (e.g., empty fields, invalid email format).</p>
+  <p><strong>Affected Users:</strong> Clients during registration or checkout</p>
+  <p><strong>Recommendation:</strong> Implement input validation and show real-time error messages for required fields and formats.</p>
+  <div class="issue-img-container">
+  <img src="ScreenShot/1.jpg" alt="Screenshot 1" class="issue-img">
+  <img src="ScreenShot/2.jpg" alt="Screenshot 2" class="issue-img">
+</div>
+
+</div>
+
+
+<!-- Issue 2 -->
+<div class="issue-card">
+  <h3><i class="fas fa-clock"></i> Slow Load Times on Some Pages</h3>
+  <p><strong>Heuristic Violated:</strong> Visibility of system status</p>
+  <p><strong>Description:</strong> Pages like “Orders” or “Products” in the admin panel took a few seconds to load without any feedback.</p>
+  <p><strong>Affected Users:</strong> Admins</p>
+  <p><strong>Recommendation:</strong> Add loading indicators (spinners or messages) while data is being fetched to reduce user confusion.</p>
+ <div class="issue-img-container">
+  <img src="ScreenShot/17.jpg" alt="Screenshot 1" class="issue-img">
+  <img src="ScreenShot/18.jpg" alt="Screenshot 2" class="issue-img">
+</div>
+
+</div>
+
+
+<!-- Issue 3 -->
+<div class="issue-card">
+  <h3><i class="fas fa-mobile-alt"></i> Navigation Buttons Too Small on Mobile</h3>
+  <p><strong>Heuristic Violated:</strong> Flexibility and efficiency of use</p>
+  <p><strong>Description:</strong> Some clickable icons or buttons (e.g., cart, login) are too small and hard to tap on mobile devices.</p>
+  <p><strong>Affected Users:</strong> Mobile users</p>
+  <p><strong>Recommendation:</strong> Increase button size and spacing for better mobile accessibility, especially for touch screens.</p>
+  <div class="issue-img-container">
+  <img src="ScreenShot/6.jpg" alt="Screenshot 1" class="issue-img">
+  <img src="ScreenShot/21.png" alt="Screenshot 2" class="issue-img">
+</div>
+
+</div>
+
+
+<!-- Issue 4 -->
+<div class="issue-card">
+  <h3><i class="fas fa-exclamation-circle"></i> Poor Mobile Responsiveness</h3>
+  <p><strong>Heuristic Violated:</strong> Flexibility and efficiency of use</p>
+  <p><strong>Description:</strong> Elements overlapped or broke layout on smaller screens.</p>
+  <p><strong>Affected Users:</strong> Clients accessing via mobile</p>
+  <p><strong>Recommendation:</strong> Implement responsive CSS frameworks (e.g., Bootstrap or Tailwind) and test across devices.</p>
+  <div class="issue-img-container">
+  <img src="ScreenShot/4.jpg" alt="Screenshot 1" class="issue-img">
+  <img src="ScreenShot/5.jpg" alt="Screenshot 2" class="issue-img">
+</div>
+
+</div>
+
+<!-- Issue 5 -->
+<div class="issue-card">
+  <h3><i class="fas fa-font"></i> Confusing Technical Terminology</h3>
+  <p><strong>Heuristic Violated:</strong> Match between system and real world</p>
+  <p><strong>Description:</strong> Labels such as “slug,” “status,” and “banner” confused non-technical users during admin use.</p>
+  <p><strong>Affected Users:</strong> Admins (non-technical)</p>
+  <p><strong>Recommendation:</strong> Use more user-friendly terms or add tooltips for clarification.</p>
+ <div class="issue-img-container">
+  <img src="ScreenShot/3.jpg" alt="Screenshot 1" class="issue-img">
+  <img src="ScreenShot/5.jpg" alt="Screenshot 2" class="issue-img">
+</div>
+
+</div>
+
+
+
+  </div>
+</section>
+
+
+  <!-- Repeat block for Issue 2 to 10 -->
+
+
+<section id="improvements" class="content-card">
+  <h1>Proposed Improvements</h1>
+  <p class="section-intro">Based on the evaluation results, here are the proposed improvements with justifications grounded in HCI principles and Nielsen’s heuristics.</p>
+
+  <div class="improvement-list">
+
+  <!-- Improvement 1 -->
+  <div class="improvement-card">
+    <h3><i class="fas fa-check-circle"></i> Input Validation with Real-Time Feedback</h3>
+    <p><strong>Improvement:</strong> Add real-time form validation and error prompts for fields like email, password, and name.</p>
+    <p><strong>Justification:</strong> Addresses <em>Error Prevention</em> by reducing invalid submissions and user frustration.</p>
+  </div>
+
+  <!-- Improvement 2 -->
+  <div class="improvement-card">
+    <h3><i class="fas fa-spinner"></i> Loading Indicators for Slow Pages</h3>
+    <p><strong>Improvement:</strong> Display loaders or spinners while waiting for content to load (e.g., Orders or Products page).</p>
+    <p><strong>Justification:</strong> Enhances <em>Visibility of System Status</em> and keeps users informed.</p>
+  </div>
+
+  <!-- Improvement 3 -->
+  <div class="improvement-card">
+    <h3><i class="fas fa-expand-arrows-alt"></i> Mobile-Friendly Button Sizes</h3>
+    <p><strong>Improvement:</strong> Enlarge small buttons (e.g., cart, login) and ensure enough spacing for touch interaction.</p>
+    <p><strong>Justification:</strong> Improves <em>Flexibility and Efficiency of Use</em> especially on mobile devices.</p>
+  </div>
+
+  <!-- Improvement 4 -->
+  <div class="improvement-card">
+    <h3><i class="fas fa-mobile-alt"></i> Fully Responsive Design</h3>
+    <p><strong>Improvement:</strong> Use responsive CSS frameworks or media queries to fix broken layouts on smaller screens.</p>
+    <p><strong>Justification:</strong> Ensures usability for <em>various screen sizes</em> and supports responsive access.</p>
+  </div>
+
+  <!-- Improvement 5 -->
+  <div class="improvement-card">
+    <h3><i class="fas fa-language"></i> Replace Technical Jargon</h3>
+    <p><strong>Improvement:</strong> Change terms like “slug” or “status” with simpler labels or add explanatory tooltips.</p>
+    <p><strong>Justification:</strong> Supports <em>Match Between System and Real World</em> for better user comprehension.</p>
+  </div>
+
+</div>
+
+
+    <!-- Optional: Mockup Section -->
+<div class="mockup-section">
+  <h2 class="mockup-title"><i class="fas fa-desktop"></i> Home Page</h2>
+  <h3 class="mockup-subtitle"><i class="fas fa-drafting-compass"></i> Redesigned Wireframes (Optional)</h3>
+  <p class="mockup-desc">Below are wireframes or annotated mockups for layout planning and evaluation refinement:</p>
+
+  <div class="mockup-img-wrapper">
+    <img src="ScreenShot/balsamiq1.png" alt="Home Page Wireframe" class="mockup-img">
+    
+  </div>
+</div>
+
+</section>
+
+
+<section id="extras" class="extras-section content-card">
+  <h1 class="extras-title">📘 Extra Pages / Reflections</h1>
+  <p class="extras-intro">Below is a summary of our usability evaluation journey and reflections of BSIT3C Students:</p>
+
+  <div class="extras-block">
+    <h3 class="extras-subtitle">📌 Summary of Our Usability Evaluation Project</h3>
+    <ul class="extras-list">
+      <li>We selected a <strong>web-based mobile store system</strong> to evaluate.</li>
+      <li>Used the <strong>DECIDE Framework</strong> for structured evaluation.</li>
+      <li>Conducted <em>heuristic evaluation</em> and <em>user testing</em> on both admin and client sides.</li>
+      <li>Identified issues such as input validation problems, small mobile buttons, confusing labels, and lack of system feedback.</li>
+      <li>Captured screenshots and paired them with specific heuristic violations.</li>
+      <li>Proposed UI/UX improvements with justifications based on HCI principles.</li>
+    </ul>
+  </div>
+
+  <div class="extras-block">
+    <h3 class="extras-subtitle">💡 Reflections</h3>
+    <ul class="extras-list">
+      <li>🔍 Usability heuristics helped us detect real pain points often overlooked by developers.</li>
+      <li>🧠 We developed empathy and started thinking more like end-users.</li>
+      <li>🤝 Collaboration improved as each group member handled a part of the evaluation.</li>
+      <li>🎥 (Optional) A video demo could showcase before-and-after improvements.</li>
+    </ul>
+  </div>
+
+  <div class="extras-block">
+    <h3 class="extras-subtitle">🎯 Why This Is Helpful for BSIT Students</h3>
+    <p class="extras-para">
+      This usability evaluation taught us the importance of designing with users in mind. As future developers, it’s not just about making systems work—it’s about making them usable, accessible, and efficient.
+    </p>
+    <p class="extras-para">
+      The process helped us build better habits like user testing, design consistency, and anticipating user behavior. This experience was a big step forward in our growth as future software engineers.
+    </p>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <p>© 2025 UsabilityEval Group | This project is for educational purposes only.</p>
+  <p>No copyright infringement intended. All content belongs to their respective owners.</p>
+</footer>
+
+
+
+    </main>
+  </div>
+</body>
+</html>
